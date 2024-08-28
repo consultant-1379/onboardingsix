@@ -1,0 +1,20 @@
+ARG IMAGE_PATH
+FROM $IMAGE_PATH
+
+# Install required dependencies
+COPY requirements_rhel6.txt ./requirements_rhel6.txt
+
+## all those packages are installed in rhel6/python26 image -> pylint==0.28.0 nose==1.3.0 pep8==1.7.0 behave==1.2.6
+RUN echo "pip install -r requirements_rhel6.txt" | scl enable python27 - && \
+    touch /etc/profile.d/scl-python27.sh && echo "source scl_source enable python27" >> /etc/profile.d/scl-python27.sh
+ARG GROUP_ID
+ARG GROUP_NAME
+ARG USER_ID
+ARG USER_NAME
+
+# Add a new user, that maps to host user
+RUN groupadd -g $GROUP_ID $GROUP_NAME; useradd -m -u $USER_ID -g $GROUP_ID -G 0 $USER_NAME && \
+echo "$USER_NAME ALL=NOPASSWD: ALL" >> /etc/sudoers
+
+# Change to non-root user, but with sudo and capability to execute every command without password
+USER $USER_NAME

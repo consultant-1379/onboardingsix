@@ -1,0 +1,29 @@
+{
+    "id": "d7e30436-2ef8-3a9b-99af-3802977da599",
+    "request": {
+        "url": "/object-configuration/v1/collections/281474980860954",
+        "method": "PUT",
+        "bodyPatterns": [
+            {
+                "equalToJson":  "{\"objects\": [{\"id\": \"281474979322193\"}, {\"id\": \"281474979327697\"}]}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "body-collections-NR-RadioNode.json",
+        "headers": {
+            "Date": "Wed, 17 Apr 2019 14:44:47 GMT",
+            "Content-Security-Policy": "frame-ancestors 'self' https://*/alex*;",
+            "X-Frame-Options": "allow-from https://*/alex*",
+            "Content-Type": "application/json",
+            "X-XSS-Protection": "1; mode=block",
+            "Cache-Control": "no-cache",
+            "Vary": "Accept-Encoding",
+            "Transfer-Encoding": "chunked"
+        }
+    },
+    "uuid": "d7e30436-2ef8-3a9b-99af-3802977da599"
+}

@@ -1,0 +1,51 @@
+{
+    "objects": [
+        {
+            "id": "281474979004682",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "RadioNode"
+        },
+        {
+            "id": "281474979004859",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "RadioNode"
+        },
+        {
+            "id": "281474979139568",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "RadioNode"
+        },
+        {
+            "id": "281474979139652",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "RadioNode"
+        },
+        {
+            "id": "281474979005067",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "RadioNode"
+        },
+        {
+            "id": "281474979005121",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "RadioNode"
+        }
+    ],
+    "attributes": [
+        "neType"
+    ],
+    "attributeMappings": [
+        {
+            "moType": "NetworkElement",
+            "attributeNames": [
+                "neType"
+            ]
+        }
+    ],
+    "metadata": {
+        "MAX_UI_CACHE_SIZE": 100000,
+        "RESULT_SET_TOTAL_SIZE": 4,
+        "INFO_MESSAGE": 0,
+        "SORTABLE": true
+    }
+}

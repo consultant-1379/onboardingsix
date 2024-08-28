@@ -1,0 +1,31 @@
+{
+    "id": "281474980860959",
+    "name": "LTE-ERBS",
+    "category": "Public",
+    "readOnly": false,
+    "update": true,
+    "delete": true,
+    "sortable": false,
+    "type": "STANDARD",
+    "subType": "SIMPLE",
+    "timeCreated": 1555329766707,
+    "lastUpdated": 1555329766707,
+    "objects": [
+        {
+            "id": "1",
+            "attributes": {}
+        },
+        {
+            "id": "2",
+            "attributes": {}
+        },
+        {
+            "id": "3",
+            "attributes": {}
+        },
+        {
+            "id": "4",
+            "attributes": {}
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--Please Use the latest version of integration pom.xml or the one you want to reference to -->
+    <parent>
+        <groupId>com.ericsson.nms</groupId>
+        <artifactId>integration</artifactId>
+        <version>15.2.0.40</version>
+    </parent>
+
+    <groupId>com.ericsson.ci.test</groupId>
+    <artifactId>onboardingsix</artifactId>
+    <version>1.18.36-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>[${project.artifactId}] Python Project</name>
+
+    <properties>
+        <ericsson.scm.url>
+            scm:git:[fetch=]ssh://gerritmirror-ha.lmera.ericsson.se:29418/OSS/com.ericsson.ci.test/onboardingsix[push=]ssh://gerrit.ericsson.se:29418/OSS/com.ericsson.ci.test/onboardingsix       </ericsson.scm.url>
+        <exec.plugin.version>1.6.0</exec.plugin.version>
+        <rpm.plugin.version>2.1.4</rpm.plugin.version>
+        <deploy.plugin.version>3.0.0-M1</deploy.plugin.version>
+        <version.archetype>1.0.56</version.archetype>
+        <sonar.projectBaseDir>.</sonar.projectBaseDir>
+        <sonar.scm.provider>git</sonar.scm.provider>
+        <sonar.sources>../src</sonar.sources>
+        <sonar.tests>./test</sonar.tests>
+        <sonar.python.coverage.reportPaths>test/coverage.xml,test/nosetests.xml</sonar.python.coverage.reportPaths>
+    </properties>
+
+    <!--Profiles for site documentation-->
+
+    <!--Profile to deploy latest site-->
+    <profiles>
+        <profile>
+            <id>site_latest</id>
+            <distributionManagement>
+                <site>
+                    <id>site</id>
+                    <name>Site</name>
+                    <url>${site.url}/nr-nsa-systems-topology/latest</url>
+                </site>
+            </distributionManagement>
+        </profile>
+
+        <!--Profile to stage site for review-->
+
+        <profile>
+            <id>site_review</id>
+            <distributionManagement>
+                <site>
+                    <id>site</id>
+                    <name>Site</name>
+                    <url>${site.url}</url>
+                </site>
+            </distributionManagement>
+        </profile>
+
+        <profile>
+            <id>container_prebuild</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <executions>
+                            <execution>
+                                <id>Prepare containers for the build</id>
+                                <phase>generate-resources</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>./prepare_build.sh</executable>
+                                </configuration>
+                            </execution>
+                        </executions>
+                        <inherited>false</inherited>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+    <profile>
+            <id>rhel7</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <modules>
+                <module>ERICnrnsasystemstopology2_CXP9041362</module>
+            </modules>
+    </profile>
+
+
+    </profiles>
+    <!--Deployment of versioned documentation-->
+    <distributionManagement>
+        <site>
+            <id>site</id>
+            <name>Site</name>
+            <url>${site.url}/nr-nsa-systems-topology/${project.version}</url>
+        </site>
+    </distributionManagement>
+
+    <scm>
+        <developerConnection>${ericsson.scm.url}</developerConnection>
+        <connection>${ericsson.scm.url}</connection>
+        <tag>HEAD</tag>
+    </scm>
+
+</project>

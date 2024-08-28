@@ -1,0 +1,11 @@
+version: "3.2"
+
+services:
+  wiremock:
+    container_name: wiremock-server
+    build: ./
+    working_dir: /opt/ericsson/nr-nsa-systems-topology/mock-server/
+    command: java -jar wiremock-standalone-2.6.0.jar --https-port=4000 --port=4001
+    ports:
+      - "4000:4000"
+      - "4001:4001"

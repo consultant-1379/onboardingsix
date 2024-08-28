@@ -1,0 +1,22 @@
+{
+  "id" : "165d3a2d-b11c-3666-a156-26004b213950",
+  "request" : {
+    "url" : "/object-configuration/v1/collections/281474979259140",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-collections-281474979259140-mYgWs.json",
+    "headers" : {
+      "Date" : "Tue, 23 Apr 2019 09:21:51 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "165d3a2d-b11c-3666-a156-26004b213950"
+}

@@ -1,0 +1,58 @@
+version: '3.7'
+services:
+  rhel6:
+    build:
+      context: ./builder
+      dockerfile: Dockerfile_local_user_builder_rhel6
+      args:
+        - GROUP_ID=${GROUP_ID}
+        - GROUP_NAME=${GROUP_NAME}
+        - USER_ID=${USER_ID}
+        - USER_NAME=${USER_NAME}
+        - IMAGE_PATH=${IMAGE_REPOSITORY}/rhel6/python27-scl:1.1.0-1
+    container_name: ${BUILD_FOLDER}_rhel6
+    hostname: ${BUILD_FOLDER}_rhel6
+    environment:
+    - MAVEN_CONFIG=/home/$USER/.m2
+    - USER
+    - HOME
+    - PWD=/home/$USER
+    - IMAGE_REPOSITORY
+    - IMAGE_TAG
+    - WORKDIR
+    - BUILD_FOLDER
+    volumes:
+    - ${HOME}/.m2:/home/$USER/.m2
+    - ${WORKDIR}/:/home/$USER/
+    - ${HOME}/.ssh:/home/$USER/.ssh
+    command: $HOME/execute_build.sh rhel6
+    init: true
+    tty: true
+  rhel7:
+    build:
+      context: ./builder
+      dockerfile: Dockerfile_local_user_builder_rhel7
+      args:
+        - GROUP_ID=${GROUP_ID}
+        - GROUP_NAME=${GROUP_NAME}
+        - USER_ID=${USER_ID}
+        - USER_NAME=${USER_NAME}
+        - IMAGE_PATH=${IMAGE_REPOSITORY}/rhel7/python2-scl:${IMAGE_TAG}
+    container_name: ${BUILD_FOLDER}_rhel7
+    hostname: ${BUILD_FOLDER}_rhel7
+    environment:
+    - MAVEN_CONFIG=/home/$USER/.m2
+    - USER
+    - HOME
+    - PWD=/home/$USER
+    - IMAGE_REPOSITORY
+    - IMAGE_TAG
+    - WORKDIR
+    - BUILD_FOLDER
+    volumes:
+    - ${HOME}/.m2:/home/$USER/.m2
+    - ${WORKDIR}/:/home/$USER/
+    - ${HOME}/.ssh:/home/$USER/.ssh
+    command: $HOME/execute_build.sh rhel7
+    init: true
+    tty: true

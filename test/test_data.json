@@ -1,0 +1,249 @@
+{
+  "collections_by_id": {
+    "9876543210": {
+      "id": "9876543210",
+      "name": "NR-NSA",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "9876543211": {
+      "id": "9876543211",
+      "name": "Leaf1-NR-NSA",
+      "category": "Public",
+      "userId": null,
+      "parentId": "9876543210",
+      "objects": [
+        {
+            "id": "20185418742",
+            "attributes": {}
+        },
+        {
+            "id": "20185418456",
+            "attributes": {}
+        }
+      ]
+    },
+    "9876543212": {
+      "id": "9876543212",
+      "name": "Leaf2-NR-NSA",
+      "category": "Public",
+      "userId": "user",
+      "parentId": "9876543210",
+      "objects": [
+        {
+            "id": "20185418742",
+            "attributes": {}
+        },
+        {
+            "id": "20185418456",
+            "attributes": {}
+        }
+      ]
+    },
+    "9876543213": {
+      "id": "9876543213",
+      "name": "LTE-ERBS",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "9876543214": {
+      "id": "9876543214",
+      "name": "LTE-RadioNode",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "9876543215": {
+      "id": "9876543215",
+      "name": "NR-RadioNode",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "9876543217": {
+      "id": "9876543217",
+      "name": "LTE-ERBS",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": null
+    },
+    "9876543218": {
+      "id": "9876543218",
+      "name": "NR-RadioNode",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": null
+    },
+    "9876543219": {
+      "id": "9876543219",
+      "name": "LTE-RadioNode",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": null
+    },
+    "9876543216": {
+      "id": "9876543216",
+      "name": "NR-NSA",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": "9876543210"
+    },
+    "9876543220": {
+      "id": "9876543220",
+      "name": "Leaf3-NR-NSA",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": "9876543210"
+    }
+  },
+
+  "collections_by_name": {
+    "NR-NSA": {
+      "id": "9876543210",
+      "name": "NR-NSA",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "Leaf1-NR-NSA": {
+      "id": "9876543211",
+      "name": "Leaf1-NR-NSA",
+      "category": "Public",
+      "userId": null,
+      "parentId": "9876543210"
+    },
+    "Leaf2-NR-NSA": {
+      "id": "9876543212",
+      "name": "Leaf2-NR-NSA",
+      "category": "Public",
+      "userId": null,
+      "parentId": "9876543210"
+    },
+    "Leaf3-NR-NSA": {
+      "id": "9876543213",
+      "name": "Leaf3-NR-NSA",
+      "category": "Public",
+      "userId": null,
+      "parentId": "9876543210"
+    },
+    "LTE-ERBS-NR-NSA": {
+      "id": "9876543211",
+      "name": "Leaf1-NR-NSA",
+      "category": "Public",
+      "userId": null,
+      "parentId": "9876543210"
+    },
+    "LTE-ERBS": {
+      "id": "9876543213",
+      "name": "LTE-ERBS",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "LTE-RadioNode": {
+      "id": "9876543214",
+      "name": "LTE-RadioNode",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "NR-RadioNode": {
+      "id": "9876543215",
+      "name": "NR-RadioNode",
+      "category": "Public",
+      "userId": null,
+      "parentId": null
+    },
+    "LTE-ERBS-1": {
+      "id": "9876543217",
+      "name": "LTE-ERBS",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": null
+    },
+    "NR-RadioNode-1": {
+      "id": "9876543218",
+      "name": "NR-RadioNode",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": null
+    },
+    "LTE-RadioNode-1": {
+      "id": "9876543219",
+      "name": "LTE-RadioNode",
+      "category": "Public",
+      "userId": "administrator",
+      "parentId": null
+    }
+  },
+  "node_list": [
+    {
+      "id": "281475095534910",
+      "moName": "LTE01dg2ERBS00001",
+      "moType": "Deleted",
+      "poId": "281475095534910",
+      "mibRootName": "null",
+      "parentRDN": "null",
+      "fullMoType": "null",
+      "attributes": "null",
+      "fdn": "null"
+    },
+    {
+      "id": "281475095534911",
+      "moName": "LTE01dg2ERBS00002",
+      "moType": "Deleted",
+      "poId": "281475095534911",
+      "mibRootName": "null",
+      "parentRDN": "null",
+      "fullMoType": "null",
+      "attributes": "null",
+      "fdn": "null"
+    },
+    {
+      "id": "281475095534912",
+      "moName": "LTE01dg2ERBS00003",
+      "moType": "Deleted",
+      "poId": "281475095534912",
+      "mibRootName": "null",
+      "parentRDN": "null",
+      "fullMoType": "null",
+      "attributes": "null",
+      "fdn": "null"
+    },
+    {
+      "id": "281475095534913",
+      "moName": "LTE01dg2ERBS00004",
+      "moType": "Deleted",
+      "poId": "281475095534913",
+      "mibRootName": "null",
+      "parentRDN": "null",
+      "fullMoType": "null",
+      "attributes": "null",
+      "fdn": "null"
+    }
+  ],
+  "error_response": {
+    "userMessage": {
+      "title": "Invalid request",
+      "body": "Invalid request"
+    },
+    "errorCode": 10003
+  },
+  "children": {
+    "valid_children": [9876543211, 9876543212],
+    "invalid_children": [9876543211, 9876543212, 9876543220]
+  },
+  "relationships": {
+    "Leaf1": {
+      "fdn": "Leaf1",
+      "nodes": [20185418742, 20185418456]},
+    "Leaf2": {
+      "fdn": "Leaf2",
+      "nodes": [20185418742, 20185418456]},
+    "Leaf3": {
+      "fdn": "Leaf3",
+      "nodes": [20185418742, 20185418456]}
+  }
+}

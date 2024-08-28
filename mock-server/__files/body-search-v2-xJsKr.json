@@ -1,0 +1,31 @@
+{
+    "objects": [
+        {
+            "id": "281474979004593",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "ERBS"
+        },
+        {
+            "id": "281474979004628",
+            "type": "NetworkElement",
+            "targetTypeAttribute": "ERBS"
+        }
+    ],
+    "attributes": [
+        "neType"
+    ],
+    "attributeMappings": [
+        {
+            "moType": "NetworkElement",
+            "attributeNames": [
+                "neType"
+            ]
+        }
+    ],
+    "metadata": {
+        "MAX_UI_CACHE_SIZE": 100000,
+        "RESULT_SET_TOTAL_SIZE": 2,
+        "INFO_MESSAGE": 0,
+        "SORTABLE": true
+    }
+}

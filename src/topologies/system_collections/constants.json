@@ -1,0 +1,20 @@
+{
+  "erbs": {
+    "name": "LTE-ERBS",
+    "queries": {
+      "GET_NODES": "get all objects of type NetworkElement from node type ERBS&orderby=moName&orderdirection=asc"
+    }
+  },
+  "radioLTE": {
+    "name": "LTE-RadioNode",
+    "queries": {
+      "GET_NODES": "select all objects of type ManagedElement where ManagedElement has child EnodeBFunction from node type RadioNode&orderby=moName&orderdirection=asc"
+    }
+  },
+  "radioNR": {
+    "name": "NR-RadioNode",
+    "queries": {
+      "GET_NODES": "select all objects of type ManagedElement where ManagedElement has child GNBDUFunction from node type RadioNode&orderby=moName&orderdirection=asc"
+    }
+  }
+}

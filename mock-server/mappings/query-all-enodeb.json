@@ -1,0 +1,21 @@
+{
+  "id" : "6d07ccce-54d3-3d2c-9cdc-fc0b5ed94f51",
+  "request" : {
+    "url" : "/managedObjects/search/v2?query=get%20all%20objects%20of%20type%20NetworkElement%20from%20node%20type%20RadioNode&orderby=moName&orderdirection=asc",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-search-v2-wLCT6.json",
+    "headers" : {
+      "Date" : "Fri, 12 Apr 2019 12:28:46 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding"
+    }
+  },
+  "uuid" : "6d07ccce-54d3-3d2c-9cdc-fc0b5ed94f51"
+}

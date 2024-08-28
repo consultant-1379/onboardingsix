@@ -1,0 +1,18 @@
+[
+    {
+        "id": "281474979365359",
+        "name": "Transport Topology",
+        "parentId": null,
+        "type": "BRANCH",
+        "level": 0,
+        "customTopology": true
+    },
+    {
+        "id": "281474979365379",
+        "name": "NR-NSA",
+        "parentId": null,
+        "type": "BRANCH",
+        "level": 0,
+        "customTopology": true
+    }
+]

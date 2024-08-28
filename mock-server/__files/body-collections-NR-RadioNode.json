@@ -1,0 +1,21 @@
+{
+    "id": "281474980860954",
+    "name": "NR-RadioNode",
+    "category": "Public",
+    "readOnly": false,
+    "update": true,
+    "delete": true,
+    "sortable": false,
+    "timeCreated": 1555329723959,
+    "lastUpdated": 1555329723959,
+    "objects": [
+        {
+            "id": "281474979322193",
+            "attributes": {}
+        },
+        {
+            "id": "281474979327697",
+            "attributes": {}
+        }
+    ]
+}

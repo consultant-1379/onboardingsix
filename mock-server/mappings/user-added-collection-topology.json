@@ -1,0 +1,21 @@
+{
+    "request": {
+        "url": "/object-configuration/custom-topology/v1/281474979201006",
+        "method": "POST"
+    },
+    "response": {
+        "status": 201,
+        "bodyFileName": "body-v1-281474979365379-pIq2g.json",
+        "headers": {
+            "Date": "Tue, 16 Apr 2019 09:24:44 GMT",
+            "Content-Security-Policy": "frame-ancestors 'self' https://*/alex*;",
+            "X-Frame-Options": "allow-from https://*/alex*",
+            "Content-Type": "application/json",
+            "X-XSS-Protection": "1; mode=block",
+            "Cache-Control": "no-cache",
+            "Vary": "Accept-Encoding",
+            "Transfer-Encoding": "chunked"
+        }
+    },
+    "uuid": "c76beac0-6f11-3a18-b019-3345f6a83ab0"
+}

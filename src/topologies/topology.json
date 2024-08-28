@@ -1,0 +1,19 @@
+{
+  "topologies": [
+    {
+      "module": "topologies.system_collections.system_collection_creator",
+      "constantKey": "erbs"
+    },
+    {
+      "module": "topologies.system_collections.system_collection_creator",
+      "constantKey": "radioLTE"
+    },
+    {
+      "module": "topologies.system_collections.system_collection_creator",
+      "constantKey": "radioNR"
+    },
+    {
+      "module": "topologies.system_topologies.nrnsa_topology"
+    }
+  ]
+}

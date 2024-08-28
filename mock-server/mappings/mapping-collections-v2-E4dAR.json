@@ -1,0 +1,22 @@
+{
+  "id" : "1a0f9f5e-2b1f-3777-864f-b81e784e9537",
+  "request" : {
+    "url" : "/object-configuration/collections/v2?collectionName=LTE-ERBS",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-collections-v2-lte-erbs-node.json",
+    "headers" : {
+      "Date" : "Thu, 18 Apr 2019 10:40:22 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "1a0f9f5e-2b1f-3777-864f-b81e784e9537"
+}

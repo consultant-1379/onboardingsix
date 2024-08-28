@@ -1,0 +1,27 @@
+{
+  "id" : "f712a56e-f8de-30c9-a691-ad5792c12397",
+  "request" : {
+    "url" : "/object-configuration/collections/v3?isSystemCreated=true",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\r\n    \"name\": \"LTE-ERBS\",\r\n    \"category\": \"Public\",\r\n    \"userId\": null\r\n}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "bodyFileName" : "body-collections-v3-eVkw1.json",
+    "headers" : {
+      "Date" : "Mon, 15 Apr 2019 12:02:46 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "f712a56e-f8de-30c9-a691-ad5792c12397"
+}

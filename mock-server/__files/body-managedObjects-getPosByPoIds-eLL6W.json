@@ -1,0 +1,74 @@
+[
+    {
+        "id": "281474979004682",
+        "moName": "LTE01dg2ERBS00001",
+        "moType": "ManagedElement",
+        "poId": "281474979004682",
+        "mibRootName": "LTE01dg2ERBS00001",
+        "parentRDN": null,
+        "fullMoType": "ManagedElement",
+        "managementState": null,
+        "attributes": null,
+        "fdn": "ManagedElement=LTE01dg2ERBS00001"
+    },
+    {
+        "id": "281474979004859",
+        "moName": "LTE01dg2ERBS00002",
+        "moType": "Deleted",
+        "poId": "281474979004859",
+        "mibRootName": null,
+        "parentRDN": null,
+        "fullMoType": null,
+        "managementState": null,
+        "attributes": null,
+        "fdn": null
+    },
+    {
+        "id": "281474979139568",
+        "moName": "LTE01dg2ERBS00003",
+        "moType": "Deleted",
+        "poId": "281474979139568",
+        "mibRootName": null,
+        "parentRDN": null,
+        "fullMoType": null,
+        "managementState": null,
+        "attributes": null,
+        "fdn": null
+    },
+    {
+        "id": "281474979139652",
+        "moName": "NR01gNodeBRadio00002",
+        "moType": "Deleted",
+        "poId": "281474979139652",
+        "mibRootName": null,
+        "parentRDN": null,
+        "fullMoType": null,
+        "managementState": null,
+        "attributes": null,
+        "fdn": null
+    },
+    {
+        "id": "281474979005067",
+        "moName": "NR01gNodeBRadio00001",
+        "moType": "Deleted",
+        "poId": "281474979005067",
+        "mibRootName": null,
+        "parentRDN": null,
+        "fullMoType": null,
+        "managementState": null,
+        "attributes": null,
+        "fdn": null
+    },
+    {
+        "id": "281474979005121",
+        "moName": "LTE18dg2ERBS00154",
+        "moType": "Deleted",
+        "poId": "281474979005121",
+        "mibRootName": null,
+        "parentRDN": null,
+        "fullMoType": null,
+        "managementState": null,
+        "attributes": null,
+        "fdn": null
+    }
+]

@@ -1,0 +1,20 @@
+{
+  "id" : "6a2eb501-da42-3c17-a69e-bd78daf34703",
+  "request" : {
+    "url" : "/object-configuration/custom-topology/v1/281474979365379",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 204,
+    "bodyFileName" : "body-v1-281474979480740-jSQoy.txt",
+    "headers" : {
+      "Date" : "Wed, 17 Apr 2019 10:24:23 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Content-Type" : "text/plain; charset=UTF-8"
+    }
+  },
+  "uuid" : "6a2eb501-da42-3c17-a69e-bd78daf34703"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "NR-NSA",
+  "queries": {
+    "get_radio_node": "get all objects of type NetworkElement from node type RadioNode&orderby=moName&orderdirection=asc",
+    "cli_get_radio_node_attributes": "cmedit get * ENodeBFunction.(enbid, enodebplmnid) -ns=lrat",
+    "cli_get_NR_radio_node_attributes": "cmedit get * ExternalENodeBFunction.(enodebid, enbplmnid) -neType=RadioNode",
+    "cli_get_NR_radio_node_attributes_pLMNId": "cmedit get * ExternalENodeBFunction.(enodebid, pLMNId) -neType=RadioNode"
+  }
+}

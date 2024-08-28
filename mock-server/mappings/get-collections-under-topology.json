@@ -1,0 +1,22 @@
+{
+  "id" : "37fac943-c7ee-32d8-b46d-6cc2e1337d78",
+  "request" : {
+    "url" : "/object-configuration/custom-topology/v1?parentId=281474979365379",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-custom-topology-v1-ZDG9J.json",
+    "headers" : {
+      "Date" : "Tue, 16 Apr 2019 08:08:38 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "37fac943-c7ee-32d8-b46d-6cc2e1337d78"
+}

@@ -1,0 +1,22 @@
+{
+  "id" : "20ef3038-3d9f-3aee-9a78-3154ee17429b",
+  "request" : {
+    "url" : "/object-configuration/v1/collections/281474979464501",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 404,
+    "bodyFileName" : "body-collections-281474979464501-Co8za.json",
+    "headers" : {
+      "Date" : "Wed, 17 Apr 2019 09:53:35 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "20ef3038-3d9f-3aee-9a78-3154ee17429b"
+}

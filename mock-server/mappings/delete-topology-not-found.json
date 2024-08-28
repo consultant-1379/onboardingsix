@@ -1,0 +1,22 @@
+{
+  "id": "0ccff22f-4e5f-304b-a272-9107a526a9d5",
+  "request": {
+    "url": "/object-configuration/custom-topology/v1/281474979365389",
+    "method": "DELETE"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "body-v1-281474979365389-FPCiE.json",
+    "headers": {
+      "Date": "Wed, 17 Apr 2019 10:22:29 GMT",
+      "Content-Security-Policy": "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options": "allow-from https://*/alex*",
+      "Content-Type": "application/json",
+      "X-XSS-Protection": "1; mode=block",
+      "Cache-Control": "no-cache",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked"
+    }
+  },
+  "uuid": "0ccff22f-4e5f-304b-a272-9107a526a9d5"
+}

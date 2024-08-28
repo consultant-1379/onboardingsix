@@ -1,0 +1,21 @@
+{
+  "id" : "7f338163-9b20-3b0c-9898-07f1173a6a4b",
+  "request" : {
+    "url" : "/managedObjects/search/v2?query=select%20all%20objects%20of%20type%20ManagedElement%20where%20ManagedElement%20has%20child%20EnodeBFunction%20from%20node%20type%20RadioNode&orderby=moName&orderdirection=asc",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-search-v2-TEXCf.json",
+    "headers" : {
+      "Date" : "Fri, 12 Apr 2019 12:33:12 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding"
+    }
+  },
+  "uuid" : "7f338163-9b20-3b0c-9898-07f1173a6a4b"
+}

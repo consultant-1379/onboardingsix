@@ -1,0 +1,27 @@
+{
+  "id" : "7a8b05ae-aac9-353e-aa35-81fd33ca2413",
+  "request" : {
+    "url" : "/object-configuration/collections/v3?isSystemCreated=true",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\r\n    \"name\": \"NR-RadioNode\",\r\n    \"category\": \"Public\",\r\n    \"userId\": null\r\n}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "bodyFileName" : "body-collections-v3-U1RSb.json",
+    "headers" : {
+      "Date" : "Mon, 15 Apr 2019 12:02:37 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "7a8b05ae-aac9-353e-aa35-81fd33ca2413"
+}

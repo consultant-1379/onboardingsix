@@ -1,0 +1,22 @@
+{
+  "id" : "8aa477e4-bcb0-3982-a192-91aecac6679d",
+  "request" : {
+    "url" : "/object-configuration/collections/v2?collectionName=NR-RadioNode",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-collections-v2-nr-radio-node.json",
+    "headers" : {
+      "Date" : "Thu, 18 Apr 2019 10:40:31 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "8aa477e4-bcb0-3982-a192-91aecac6679d"
+}

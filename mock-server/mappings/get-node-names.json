@@ -1,0 +1,27 @@
+{
+  "id" : "ad95e6fa-a217-32fa-8d7e-f5747bbd85ed",
+  "request" : {
+    "url" : "/managedObjects/getPosByPoIds",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\r\n    \"poList\": [\"281474979004682\", \"281474979004859\", \"281474979139568\", \"281474979139652\", \"281474979005067\", \"281474979005121\"]\r\n}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-managedObjects-getPosByPoIds-eLL6W.json",
+    "headers" : {
+      "Date" : "Mon, 15 Apr 2019 14:52:03 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "ad95e6fa-a217-32fa-8d7e-f5747bbd85ed"
+}

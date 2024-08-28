@@ -1,0 +1,22 @@
+{
+    "id": "344fed81-139c-3f1a-b8a2-551a670383a9",
+    "request": {
+      "urlPath": "/object-configuration/v1/collections/281474980860954",
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "bodyFileName": "contents-NR-RadioNode.json",
+      "headers": {
+        "Date": "Mon, 15 Apr 2019 12:52:42 GMT",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*/alex*;",
+        "X-Frame-Options": "allow-from https://*/alex*",
+        "Content-Type": "application/json",
+        "X-XSS-Protection": "1; mode=block",
+        "Cache-Control": "no-cache",
+        "Vary": "Accept-Encoding",
+        "Transfer-Encoding": "chunked"
+      }
+    },
+    "uuid": "344fed81-139c-3f1a-b8a2-551a670383a9"
+  }

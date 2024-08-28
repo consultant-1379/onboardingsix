@@ -1,0 +1,27 @@
+{
+  "id" : "76f20e2d-bbec-324c-8052-3c827c189b65",
+  "request" : {
+    "url" : "/object-configuration/collections/v3?isSystemCreated=true",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\r\n    \"name\": \"LTE-RadioNode\",\r\n    \"category\": \"Public\",\r\n    \"userId\": null\r\n}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "bodyFileName" : "body-collections-v3-UgUcA.json",
+    "headers" : {
+      "Date" : "Wed, 17 Apr 2019 14:43:15 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "76f20e2d-bbec-324c-8052-3c827c189b65"
+}

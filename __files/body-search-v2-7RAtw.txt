@@ -1,0 +1,7 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://enmapache.athtem.eei.ericsson.se/err401/login.html?goto=https%3A%2F%2Fenmapache.athtem.eei.ericsson.se%3A443%2FmanagedObjects%2Fsearch%2Fv2%3Fquery%3Dget%2520all%2520objects%2520of%2520type%2520NetworkElement%2520from%2520node%2520type%2520ERBS">here</a>.</p>
+</body></html>

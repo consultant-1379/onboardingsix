@@ -1,0 +1,7 @@
+{
+  "userMessage": {
+    "title": "Collection already exists",
+    "body": "Collection with the same name already exists"
+  },
+  "internalErrorCode": 10011
+}

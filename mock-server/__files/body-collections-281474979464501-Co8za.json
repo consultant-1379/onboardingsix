@@ -1,0 +1,7 @@
+{
+    "userMessage": {
+        "title": "Object Not Found",
+        "body": "Collection does not exist"
+    },
+    "internalErrorCode": 10007
+}

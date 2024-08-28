@@ -1,0 +1,21 @@
+{
+  "id" : "6b130a7d-4bd4-39d2-8739-c52a7e22f19b",
+  "request" : {
+    "url" : "/managedObjects/search/v2?query=get%20all%20objects%20of%20type%20NetworkElement%20from%20node%20type%20ERBS&orderby=moName&orderdirection=asc",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-search-v2-xJsKr.json",
+    "headers" : {
+      "Date" : "Fri, 12 Apr 2019 12:29:29 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding"
+    }
+  },
+  "uuid" : "6b130a7d-4bd4-39d2-8739-c52a7e22f19b"
+}

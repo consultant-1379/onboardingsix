@@ -1,0 +1,21 @@
+{
+    "id": "281474979388980",
+    "name": "LTE18dg2ERBS00154-NR-NSA",
+    "category": "Public",
+    "readOnly": false,
+    "update": true,
+    "delete": true,
+    "sortable": false,
+    "timeCreated": 1555512195967,
+    "lastUpdated": 1555512288000,
+    "objects": [
+        {
+            "id": "281474979005067",
+            "attributes": {}
+        },
+        {
+            "id": "281474979139652",
+            "attributes": {}
+        }
+    ]
+}

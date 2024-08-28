@@ -1,0 +1,11 @@
+[
+    {
+        "id": "281474979365389",
+        "name": "LTE01dg2ERBS00001-NR-NSA",
+        "parentId": "281474979365379",
+        "type": "LEAF",
+        "category": "Public",
+        "level": 1,
+        "customTopology": false
+    }
+]

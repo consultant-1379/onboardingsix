@@ -1,0 +1,19 @@
+{
+  "id": "0a575dcb-905c-3b76-b741-2e5f1d8dcd0d",
+  "request": {
+    "url": "/object-configuration/collections/v3?collectionName=LTE-RadioNode",
+    "method": "GET"
+  },
+  "response": {
+    "status": 302,
+    "bodyFileName": "body-collections-v3-qDIdw.txt",
+    "headers": {
+      "Date": "Mon, 15 Apr 2019 12:08:34 GMT",
+      "Content-Security-Policy": "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options": "allow-from https://*/alex*",
+      "Location": "https://enmapache.athtem.eei.ericsson.se:443/login/?goto=https%3A%2F%2Fenmapache.athtem.eei.ericsson.se%3A443%2Fobject-configuration%2Fcollections%2Fv3%3FcollectionName%3DLTE-RadioNode",
+      "Content-Type": "text/html; charset=iso-8859-1"
+    }
+  },
+  "uuid": "0a575dcb-905c-3b76-b741-2e5f1d8dcd0d"
+}

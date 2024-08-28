@@ -1,0 +1,22 @@
+{
+  "id" : "c24ea5c1-6020-305d-a788-408bbd7c653b",
+  "request" : {
+    "url" : "/object-configuration/collections/v2?collectionName=LTE-RadioNode",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-collections-v2-sRPI2.json",
+    "headers" : {
+      "Date" : "Mon, 15 Apr 2019 11:57:58 GMT",
+      "Content-Security-Policy" : "frame-ancestors 'self' https://*/alex*;",
+      "X-Frame-Options" : "allow-from https://*/alex*",
+      "Content-Type" : "application/json",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache",
+      "Vary" : "Accept-Encoding",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "c24ea5c1-6020-305d-a788-408bbd7c653b"
+}

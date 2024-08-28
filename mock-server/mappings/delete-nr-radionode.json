@@ -1,0 +1,22 @@
+{
+    "id": "c7cfcf42-6893-3c61-8c52-8a3df73f1ec9",
+    "request": {
+        "url": "/object-configuration/v1/collections/281474978895927",
+        "method": "DELETE"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "body-delete-nr-radionode.json",
+        "headers": {
+            "Date": "Wed, 17 Apr 2019 09:48:12 GMT",
+            "Content-Security-Policy": "frame-ancestors 'self' https://*/alex*;",
+            "X-Frame-Options": "allow-from https://*/alex*",
+            "Content-Type": "application/json",
+            "X-XSS-Protection": "1; mode=block",
+            "Cache-Control": "no-cache",
+            "Vary": "Accept-Encoding",
+            "Transfer-Encoding": "chunked"
+        }
+    },
+    "uuid": "c7cfcf42-6893-3c61-8c52-8a3df73f1ec9"
+}

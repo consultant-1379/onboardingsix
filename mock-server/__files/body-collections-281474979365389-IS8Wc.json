@@ -1,0 +1,21 @@
+{
+    "id": "281474979365389",
+    "name": "LTE01dg2ERBS00001-NR-NSA",
+    "category": "Public",
+    "readOnly": false,
+    "update": true,
+    "delete": true,
+    "sortable": false,
+    "timeCreated": 1555401983941,
+    "lastUpdated": 1555401984527,
+    "objects": [
+        {
+            "id": "281474979220141",
+            "attributes": {}
+        },
+        {
+            "id": "281474979219761",
+            "attributes": {}
+        }
+    ]
+}

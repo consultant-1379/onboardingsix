@@ -1,0 +1,13 @@
+{
+    "id": "281474979259140",
+    "name": "My test collection",
+    "category": "Public",
+    "readOnly": false,
+    "update": true,
+    "delete": true,
+    "sortable": false,
+    "timeCreated": 1556009417358,
+    "lastUpdated": 1556009417358,
+    "userId": "nrnsa",
+    "objects": []
+}
